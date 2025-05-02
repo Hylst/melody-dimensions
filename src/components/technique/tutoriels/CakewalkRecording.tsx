@@ -22,7 +22,7 @@ const CakewalkRecording = () => {
         <CardContent className="pt-6">
           <div className="aspect-video bg-muted rounded-md relative overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" 
+              src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2070" 
               alt="Interface Cakewalk en mode enregistrement" 
               className="object-cover w-full h-full" 
             />
@@ -48,12 +48,15 @@ const CakewalkRecording = () => {
                 le mixage et la production musicale, rivalisant avec des solutions commerciales bien plus coûteuses.
               </p>
             </div>
-            <div className="bg-muted rounded-md overflow-hidden">
+            <div className="bg-muted rounded-md overflow-hidden relative group cursor-pointer">
               <img 
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7" 
-                alt="Enregistrement audio sur ordinateur" 
-                className="object-cover w-full h-64" 
+                src="https://images.unsplash.com/photo-1598520106830-8c45c2035460?q=80&w=2070" 
+                alt="Studio d'enregistrement avec équipement audio" 
+                className="object-cover w-full h-64 transition-transform duration-300 group-hover:scale-105" 
               />
+              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p className="text-white text-center px-4">Interface moderne de Cakewalk avec ses outils d'enregistrement multipiste</p>
+              </div>
             </div>
           </div>
         </section>
@@ -186,11 +189,19 @@ const CakewalkRecording = () => {
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <img 
-                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" 
-                alt="Session d'enregistrement multipiste" 
-                className="rounded-md object-cover w-full h-64" 
-              />
+              <div className="relative rounded-md overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1598653222000-6b7b7a552625?q=80&w=2070" 
+                  alt="Console de mixage en studio d'enregistrement" 
+                  className="rounded-md object-cover w-full h-64 transition-all duration-500 hover:brightness-110" 
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent h-1/3"></div>
+                <div className="absolute bottom-0 left-0 right-0 p-3 transform translate-y-full hover:translate-y-0 transition-transform duration-300">
+                  <div className="bg-black/70 text-white p-2 rounded-md">
+                    <p className="text-xs">Cliquez pour explorer les détails de l'interface</p>
+                  </div>
+                </div>
+              </div>
               <p className="text-sm text-center mt-2 text-muted-foreground">
                 Session d'enregistrement multipiste configurée dans Cakewalk, avec plusieurs pistes instrumentales
               </p>
@@ -229,6 +240,68 @@ const CakewalkRecording = () => {
         </section>
         
         <section>
+          <h2 className="text-2xl font-semibold mb-4">Démonstration interactive</h2>
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg shadow-sm border border-blue-100 mb-6">
+            <h3 className="font-medium mb-4 text-indigo-800">Explorer l'interface de Cakewalk</h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+                <div className="aspect-video bg-indigo-100 rounded-md mb-3 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                    alt="Console de mixage" 
+                    className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-2 text-sm">Vue de la console de mixage</p>
+                  </div>
+                </div>
+                <h4 className="font-medium text-sm mb-1">Console de mixage</h4>
+                <p className="text-xs text-muted-foreground">Explorez les fonctionnalités de la console de mixage virtuelle</p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+                <div className="aspect-video bg-indigo-100 rounded-md mb-3 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1558403194-611308249627?q=80&w=1000" 
+                    alt="Éditeur MIDI" 
+                    className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-2 text-sm">Vue de l'éditeur MIDI</p>
+                  </div>
+                </div>
+                <h4 className="font-medium text-sm mb-1">Éditeur MIDI</h4>
+                <p className="text-xs text-muted-foreground">Découvrez comment éditer vos séquences MIDI avec précision</p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+                <div className="aspect-video bg-indigo-100 rounded-md mb-3 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1598653222000-6b7b7a552625?q=80&w=1000" 
+                    alt="Éditeur audio" 
+                    className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-2 text-sm">Vue de l'éditeur audio</p>
+                  </div>
+                </div>
+                <h4 className="font-medium text-sm mb-1">Éditeur audio</h4>
+                <p className="text-xs text-muted-foreground">Manipulez vos enregistrements avec des outils professionnels</p>
+              </div>
+            </div>
+            
+            <div className="mt-6 bg-blue-50 p-4 rounded-md border border-blue-100">
+              <h4 className="font-medium mb-2 text-blue-800">Simulation interactive</h4>
+              <p className="text-sm mb-3">Cliquez sur les éléments ci-dessus pour explorer les différentes fonctionnalités de Cakewalk en détail.</p>
+              <div className="flex justify-center">
+                <div className="inline-flex items-center px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  <span className="animate-pulse mr-2 h-2 w-2 rounded-full bg-blue-500"></span>
+                  Interactif
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <h2 className="text-2xl font-semibold mb-4">Ressources complémentaires</h2>
           <div className="bg-muted p-4 rounded-md">
             <h3 className="font-medium mb-2">Documentation et communauté</h3>
@@ -237,9 +310,9 @@ const CakewalkRecording = () => {
             </p>
             <ul className="list-disc pl-5 space-y-1">
               <li>Documentation officielle de Cakewalk by BandLab</li>
-              <li>Tutoriels vidéo BandLab</li>
               <li>Forum de la communauté Cakewalk</li>
               <li>Projets d'exemple inclus avec le logiciel</li>
+              <li>Galeries d'illustrations interactives sur le site officiel</li>
             </ul>
           </div>
         </section>
