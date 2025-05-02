@@ -36,7 +36,7 @@ const FonctionsSociales = () => {
                 à sa cohésion et à son évolution culturelle.
               </p>
               <Button variant="outline" className="mt-4" asChild>
-                <Link to="/societe/identite">Explorer ce thème <ArrowRight className="ml-2 h-4 w-4" /></Link>
+                <Link to="/societe">Explorer ce thème <ArrowRight className="ml-2 h-4 w-4" /></Link>
               </Button>
             </div>
             <div className="rounded-lg overflow-hidden">
@@ -140,7 +140,7 @@ const FonctionsSociales = () => {
                 et à la pratique instrumentale, développant des compétences transférables à d'autres domaines.
               </p>
               <Button variant="outline" className="mt-4" asChild>
-                <Link to="/societe/education/methodes">Méthodes pédagogiques <ArrowRight className="ml-2 h-4 w-4" /></Link>
+                <Link to="/societe">Méthodes pédagogiques <ArrowRight className="ml-2 h-4 w-4" /></Link>
               </Button>
             </div>
             <div className="rounded-lg overflow-hidden">
@@ -202,7 +202,7 @@ const FonctionsSociales = () => {
                 si profonds sur notre cognition, nos émotions et notre comportement.
               </p>
               <Button variant="outline" asChild>
-                <Link to="/societe/neurosciences">Découvrir</Link>
+                <Link to="/societe">Découvrir</Link>
               </Button>
             </CardContent>
           </Card>
@@ -217,7 +217,7 @@ const FonctionsSociales = () => {
                 et les systèmes de croyance à travers les cultures du monde.
               </p>
               <Button variant="outline" asChild>
-                <Link to="/societe/anthropologie">Découvrir</Link>
+                <Link to="/societe">Découvrir</Link>
               </Button>
             </CardContent>
           </Card>
@@ -232,7 +232,7 @@ const FonctionsSociales = () => {
                 résistance, et son rôle dans la construction des identités nationales.
               </p>
               <Button variant="outline" asChild>
-                <Link to="/societe/politique">Découvrir</Link>
+                <Link to="/societe">Découvrir</Link>
               </Button>
             </CardContent>
           </Card>

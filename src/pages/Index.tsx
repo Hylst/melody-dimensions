@@ -40,7 +40,7 @@ const Index = () => {
                   Explorez les principes fondamentaux qui régissent la propagation du son et comment ils s'appliquent à la musique.
                 </p>
                 <Button variant="outline" asChild size="sm" className="gap-1">
-                  <Link to="/physique-son/acoustique">
+                  <Link to="/physique-son">
                     Lire l'article <ArrowRightIcon className="h-4 w-4" />
                   </Link>
                 </Button>
@@ -64,7 +64,7 @@ const Index = () => {
                   Retracez l'histoire des principaux genres musicaux et leurs influences croisées à travers les époques.
                 </p>
                 <Button variant="outline" asChild size="sm" className="gap-1">
-                  <Link to="/culture/genres">
+                  <Link to="/culture">
                     Lire l'article <ArrowRightIcon className="h-4 w-4" />
                   </Link>
                 </Button>
@@ -88,7 +88,7 @@ const Index = () => {
                   Comment les technologies numériques ont révolutionné la création, la production et la diffusion musicale.
                 </p>
                 <Button variant="outline" asChild size="sm" className="gap-1">
-                  <Link to="/technique/numerique">
+                  <Link to="/technique">
                     Lire l'article <ArrowRightIcon className="h-4 w-4" />
                   </Link>
                 </Button>

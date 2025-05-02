@@ -158,11 +158,11 @@ const AudacityCleaning = () => {
               </li>
               <li>
                 <strong>Créez un profil de bruit</strong>
-                <p className="text-sm text-muted-foreground">Sélectionnez cette section et allez dans "Effet" > "Réduction de bruit" > "Obtenir le profil de bruit".</p>
+                <p className="text-sm text-muted-foreground">Sélectionnez cette section et allez dans "Effet" &gt; "Réduction de bruit" &gt; "Obtenir le profil de bruit".</p>
               </li>
               <li>
                 <strong>Appliquez la réduction</strong>
-                <p className="text-sm text-muted-foreground">Sélectionnez l'ensemble de l'audio, puis "Effet" > "Réduction de bruit" > "Réduction de bruit".</p>
+                <p className="text-sm text-muted-foreground">Sélectionnez l'ensemble de l'audio, puis "Effet" &gt; "Réduction de bruit" &gt; "Réduction de bruit".</p>
               </li>
               <li>
                 <strong>Ajustez les paramètres</strong>

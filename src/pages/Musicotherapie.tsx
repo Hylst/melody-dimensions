@@ -245,7 +245,7 @@ const Musicotherapie = () => {
                 et comment le cerveau traite les stimuli musicaux.
               </p>
               <Button variant="outline" asChild>
-                <Link to="/societe/neurosciences">En savoir plus</Link>
+                <Link to="/societe">En savoir plus</Link>
               </Button>
             </CardContent>
           </Card>
@@ -260,7 +260,7 @@ const Musicotherapie = () => {
                 et comment ces réponses émotionnelles sont exploitées en thérapie.
               </p>
               <Button variant="outline" asChild>
-                <Link to="/emotion">En savoir plus</Link>
+                <Link to="/societe">En savoir plus</Link>
               </Button>
             </CardContent>
           </Card>
@@ -275,7 +275,7 @@ const Musicotherapie = () => {
                 pratique professionnelle ou dans votre vie quotidienne.
               </p>
               <Button variant="outline" asChild>
-                <Link to="#">En savoir plus</Link>
+                <Link to="/societe">En savoir plus</Link>
               </Button>
             </CardContent>
           </Card>

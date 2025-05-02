@@ -294,7 +294,7 @@ const Instruments = () => {
               Découvrez nos outils d'analyse qui permettent de visualiser et comprendre les caractéristiques acoustiques des instruments de musique.
             </p>
             <Button asChild variant="outline">
-              <Link to="/physique-son/instruments/laboratoire">Accéder au laboratoire</Link>
+              <Link to="/physique-son/instruments">Accéder au laboratoire</Link>
             </Button>
           </CardContent>
         </Card>
@@ -309,7 +309,7 @@ const Instruments = () => {
               Explorez comment les luthiers utilisent les principes acoustiques pour concevoir et améliorer les instruments de musique.
             </p>
             <Button asChild variant="outline">
-              <Link to="/physique-son/instruments/lutherie">En savoir plus</Link>
+              <Link to="/physique-son/instruments">En savoir plus</Link>
             </Button>
           </CardContent>
         </Card>

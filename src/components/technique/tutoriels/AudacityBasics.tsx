@@ -158,9 +158,9 @@ const AudacityBasics = () => {
             <div className="bg-muted p-4 rounded-md">
               <h3 className="font-medium mb-2">Création d'un nouveau projet</h3>
               <ol className="list-decimal pl-5 space-y-2">
-                <li>Lancez Audacity et cliquez sur "Fichier" > "Enregistrer le projet sous..."</li>
+                <li>Lancez Audacity et cliquez sur "Fichier" &gt; "Enregistrer le projet sous..."</li>
                 <li>Choisissez un emplacement et nommez votre projet</li>
-                <li>Importez un fichier audio via "Fichier" > "Importer" > "Audio..."</li>
+                <li>Importez un fichier audio via "Fichier" &gt; "Importer" &gt; "Audio..."</li>
                 <li>Ou enregistrez directement en cliquant sur le bouton rouge d'enregistrement</li>
               </ol>
             </div>
@@ -170,7 +170,7 @@ const AudacityBasics = () => {
                 <li>Sélectionnez une portion audio en cliquant et faisant glisser</li>
                 <li>Coupez des parties indésirables avec Ctrl+X (Cmd+X sur Mac)</li>
                 <li>Ajustez le volume en utilisant l'outil Enveloppe (bouton F)</li>
-                <li>Appliquez un fondu en sélectionnant une zone puis "Effet" > "Fondre en ouverture/fermeture"</li>
+                <li>Appliquez un fondu en sélectionnant une zone puis "Effet" &gt; "Fondre en ouverture/fermeture"</li>
               </ol>
             </div>
           </div>

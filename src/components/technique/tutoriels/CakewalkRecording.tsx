@@ -156,15 +156,15 @@ const CakewalkRecording = () => {
             <ol className="list-decimal pl-5 space-y-3">
               <li>
                 <strong>Créez un nouveau projet</strong>
-                <p className="text-sm text-muted-foreground">Lancez Cakewalk et allez dans "File" > "New Project". Choisissez un modèle approprié pour votre projet.</p>
+                <p className="text-sm text-muted-foreground">Lancez Cakewalk et allez dans "File" {'>'} "New Project". Choisissez un modèle approprié pour votre projet.</p>
               </li>
               <li>
                 <strong>Configurez vos entrées</strong>
-                <p className="text-sm text-muted-foreground">Dans "Edit" > "Preferences" > "Audio" > "Devices", sélectionnez votre interface audio et configurez les entrées/sorties disponibles.</p>
+                <p className="text-sm text-muted-foreground">Dans "Edit" {'>'} "Preferences" {'>'} "Audio" {'>'} "Devices", sélectionnez votre interface audio et configurez les entrées/sorties disponibles.</p>
               </li>
               <li>
                 <strong>Créez les pistes nécessaires</strong>
-                <p className="text-sm text-muted-foreground">Utilisez "Insert" > "Audio Track" pour chaque source que vous souhaitez enregistrer (voix, guitare, etc.).</p>
+                <p className="text-sm text-muted-foreground">Utilisez "Insert" {'>'} "Audio Track" pour chaque source que vous souhaitez enregistrer (voix, guitare, etc.).</p>
               </li>
               <li>
                 <strong>Assignez les entrées à chaque piste</strong>
@@ -202,7 +202,7 @@ const CakewalkRecording = () => {
                 <li className="text-sm text-muted-foreground">Utilisez le métronome (N) pour garder un tempo constant</li>
                 <li className="text-sm text-muted-foreground">Envisagez d'utiliser le mode de latence minimale pour le monitoring direct</li>
                 <li className="text-sm text-muted-foreground">Sauvegardez régulièrement votre projet avec "Ctrl+S"</li>
-                <li className="text-sm text-muted-foreground">Créez des marqueurs (Insert > Markers) pour identifier rapidement les différentes sections</li>
+                <li className="text-sm text-muted-foreground">Créez des marqueurs (Insert &gt; Markers) pour identifier rapidement les différentes sections</li>
               </ul>
             </div>
           </div>

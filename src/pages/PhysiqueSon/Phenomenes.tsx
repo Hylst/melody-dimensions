@@ -222,7 +222,7 @@ const Phenomenes = () => {
               Nos simulations interactives vous permettent de manipuler les paramètres et d'observer en temps réel le comportement des ondes sonores.
             </p>
             <Button asChild variant="outline">
-              <Link to="/physique-son/phenomenes/simulations">Explorer les simulations</Link>
+              <Link to="/physique-son/phenomenes">Explorer les simulations</Link>
             </Button>
           </CardContent>
         </Card>
@@ -237,7 +237,7 @@ const Phenomenes = () => {
               Consultez nos articles détaillés rédigés par des experts en acoustique pour approfondir vos connaissances.
             </p>
             <Button asChild variant="outline">
-              <Link to="/physique-son/phenomenes/articles">Lire les articles</Link>
+              <Link to="/physique-son/phenomenes">Lire les articles</Link>
             </Button>
           </CardContent>
         </Card>
