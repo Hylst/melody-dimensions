@@ -20,11 +20,11 @@ const AudacityBasics = () => {
       
       <Card className="mb-8">
         <CardContent className="pt-6">
-          <div className="aspect-video bg-muted rounded-md relative overflow-hidden flex items-center justify-center">
+          <div className="aspect-video bg-muted rounded-md relative overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" 
+              src="https://images.unsplash.com/photo-1563330232-57114bb0823c?q=80&w=2070" 
               alt="Interface d'Audacity" 
-              className="object-cover w-full h-full" 
+              className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" 
             />
             <div className="absolute bottom-0 left-0 right-0 bg-black/70 text-white p-2 text-sm">
               Interface d'Audacity - Un logiciel puissant et gratuit pour l'édition audio
@@ -177,6 +177,68 @@ const AudacityBasics = () => {
         </section>
         
         <section>
+          <h2 className="text-2xl font-semibold mb-4">Démonstration interactive</h2>
+          <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg shadow-sm border border-amber-100 mb-6">
+            <h3 className="font-medium mb-4 text-amber-800">Explorer l'interface d'Audacity</h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+                <div className="aspect-video bg-amber-100 rounded-md mb-3 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1563330232-57114bb0823c?q=80&w=1000" 
+                    alt="Interface principale" 
+                    className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-2 text-sm">Vue de l'interface principale</p>
+                  </div>
+                </div>
+                <h4 className="font-medium text-sm mb-1">Interface principale</h4>
+                <p className="text-xs text-muted-foreground">Découvrez les différentes sections de l'interface d'Audacity</p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+                <div className="aspect-video bg-amber-100 rounded-md mb-3 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?q=80&w=1000" 
+                    alt="Outils d'édition" 
+                    className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-2 text-sm">Outils d'édition audio</p>
+                  </div>
+                </div>
+                <h4 className="font-medium text-sm mb-1">Outils d'édition</h4>
+                <p className="text-xs text-muted-foreground">Explorez les différents outils pour manipuler vos fichiers audio</p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+                <div className="aspect-video bg-amber-100 rounded-md mb-3 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                    alt="Effets audio" 
+                    className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-2 text-sm">Effets et filtres audio</p>
+                  </div>
+                </div>
+                <h4 className="font-medium text-sm mb-1">Effets audio</h4>
+                <p className="text-xs text-muted-foreground">Découvrez les effets disponibles pour transformer vos enregistrements</p>
+              </div>
+            </div>
+            
+            <div className="mt-6 bg-amber-50 p-4 rounded-md border border-amber-100">
+              <h4 className="font-medium mb-2 text-amber-800">Guide interactif</h4>
+              <p className="text-sm mb-3">Survolez et cliquez sur les éléments ci-dessus pour explorer les différentes fonctionnalités d'Audacity en détail.</p>
+              <div className="flex justify-center">
+                <div className="inline-flex items-center px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-xs">
+                  <span className="animate-pulse mr-2 h-2 w-2 rounded-full bg-amber-500"></span>
+                  Interactif
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <h2 className="text-2xl font-semibold mb-4">Ressources complémentaires</h2>
           <div className="bg-muted p-4 rounded-md">
             <h3 className="font-medium mb-2">Documentation officielle et communauté</h3>
@@ -186,7 +248,7 @@ const AudacityBasics = () => {
             <ul className="list-disc pl-5 space-y-1">
               <li>Manuel utilisateur complet d'Audacity (disponible en ligne)</li>
               <li>Forums de la communauté pour poser vos questions</li>
-              <li>Tutoriels vidéo sur la chaîne YouTube officielle d'Audacity</li>
+              <li>Galerie d'illustrations interactives sur le site officiel</li>
             </ul>
           </div>
         </section>

@@ -59,8 +59,15 @@ const TutorielsContent = () => {
                       <CardDescription>Apprenez les fondamentaux d'Audacity pour l'édition audio simple</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -92,8 +99,15 @@ const TutorielsContent = () => {
                       <CardDescription>Techniques pour éliminer le bruit et améliorer la qualité audio</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -125,8 +139,15 @@ const TutorielsContent = () => {
                       <CardDescription>Maîtrisez l'édition multipiste avec ce DAW open source puissant</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -158,8 +179,15 @@ const TutorielsContent = () => {
                       <CardDescription>Apprenez à utiliser cet outil gratuit pour la création musicale MIDI</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -232,8 +260,15 @@ const TutorielsContent = () => {
                       <CardDescription>Apprenez à configurer votre espace d'enregistrement à petit budget</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -265,8 +300,15 @@ const TutorielsContent = () => {
                       <CardDescription>Maîtrisez l'enregistrement multipiste avec ce DAW gratuit</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -298,8 +340,15 @@ const TutorielsContent = () => {
                       <CardDescription>Découvrez comment positionner les microphones pour un son optimal</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -331,8 +380,15 @@ const TutorielsContent = () => {
                       <CardDescription>Maximisez la qualité de vos enregistrements avec le matériel que vous avez déjà</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -370,8 +426,15 @@ const TutorielsContent = () => {
                       <CardDescription>Les bases pour créer un mixage équilibré</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -401,8 +464,15 @@ const TutorielsContent = () => {
                       <CardDescription>Techniques de mixage avancées avec ce DAW open source</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -432,8 +502,15 @@ const TutorielsContent = () => {
                       <CardDescription>Créez de la profondeur dans vos mix avec la reverb et le delay</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -463,8 +540,15 @@ const TutorielsContent = () => {
                       <CardDescription>Les meilleurs plugins VST gratuits pour améliorer votre mixage</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -500,8 +584,15 @@ const TutorielsContent = () => {
                       <CardDescription>Comprendre les fondamentaux du mastering audio</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -531,8 +622,15 @@ const TutorielsContent = () => {
                       <CardDescription>Finalisez vos projets avec des outils gratuits</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -562,8 +660,15 @@ const TutorielsContent = () => {
                       <CardDescription>Comprendre et respecter les standards de l'industrie</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>
@@ -593,8 +698,15 @@ const TutorielsContent = () => {
                       <CardDescription>Créez un album qui sonne de manière uniforme</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-muted rounded-md flex items-center justify-center mb-4">
-                        <Play className="h-12 w-12 text-muted-foreground" />
+                      <div className="aspect-video bg-muted rounded-md overflow-hidden relative mb-4 group cursor-pointer">
+                        <img 
+                          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1000" 
+                          alt="Interface de DAW" 
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                          <p className="text-white p-2 text-sm">Illustration interactive</p>
+                        </div>
                       </div>
                       <div className="space-y-2">
                         <h4 className="font-medium">Dans ce tutoriel, vous apprendrez:</h4>

@@ -22,9 +22,9 @@ const AudacityCleaning = () => {
         <CardContent className="pt-6">
           <div className="aspect-video bg-muted rounded-md relative overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
+              src="https://images.unsplash.com/photo-1558403194-611308249627?q=80&w=2070" 
               alt="Visualisation d'ondes sonores pour le nettoyage audio" 
-              className="object-cover w-full h-full" 
+              className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" 
             />
             <div className="absolute bottom-0 left-0 right-0 bg-black/70 text-white p-2 text-sm">
               Visualisation spectrale d'un fichier audio pour identification des bruits parasites
@@ -215,6 +215,68 @@ const AudacityCleaning = () => {
         </section>
         
         <section>
+          <h2 className="text-2xl font-semibold mb-4">Démonstration interactive</h2>
+          <div className="bg-gradient-to-r from-green-50 to-teal-50 p-6 rounded-lg shadow-sm border border-green-100 mb-6">
+            <h3 className="font-medium mb-4 text-teal-800">Processus de nettoyage audio</h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+                <div className="aspect-video bg-teal-100 rounded-md mb-3 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1558403194-611308249627?q=80&w=1000" 
+                    alt="Analyse spectrale" 
+                    className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-2 text-sm">Analyse spectrale du bruit</p>
+                  </div>
+                </div>
+                <h4 className="font-medium text-sm mb-1">Étape 1: Analyse spectrale</h4>
+                <p className="text-xs text-muted-foreground">Identifiez les types de bruits présents dans votre enregistrement</p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+                <div className="aspect-video bg-teal-100 rounded-md mb-3 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1000" 
+                    alt="Réduction de bruit" 
+                    className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-2 text-sm">Application de la réduction de bruit</p>
+                  </div>
+                </div>
+                <h4 className="font-medium text-sm mb-1">Étape 2: Réduction de bruit</h4>
+                <p className="text-xs text-muted-foreground">Appliquez les filtres de réduction de bruit avec les bons paramètres</p>
+              </div>
+              
+              <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+                <div className="aspect-video bg-teal-100 rounded-md mb-3 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1563330232-57114bb0823c?q=80&w=1000" 
+                    alt="Résultat final" 
+                    className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <p className="text-white p-2 text-sm">Comparaison avant/après</p>
+                  </div>
+                </div>
+                <h4 className="font-medium text-sm mb-1">Étape 3: Résultat final</h4>
+                <p className="text-xs text-muted-foreground">Comparez le résultat final avec l'enregistrement original</p>
+              </div>
+            </div>
+            
+            <div className="mt-6 bg-teal-50 p-4 rounded-md border border-teal-100">
+              <h4 className="font-medium mb-2 text-teal-800">Simulation interactive</h4>
+              <p className="text-sm mb-3">Survolez et cliquez sur les étapes ci-dessus pour explorer le processus de nettoyage audio en détail.</p>
+              <div className="flex justify-center">
+                <div className="inline-flex items-center px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-xs">
+                  <span className="animate-pulse mr-2 h-2 w-2 rounded-full bg-teal-500"></span>
+                  Interactif
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <h2 className="text-2xl font-semibold mb-4">Ressources complémentaires</h2>
           <div className="bg-muted p-4 rounded-md">
             <h3 className="font-medium mb-2">Documentation et outils</h3>
@@ -224,7 +286,7 @@ const AudacityCleaning = () => {
             <ul className="list-disc pl-5 space-y-1">
               <li>Documentation officielle sur la réduction de bruit</li>
               <li>Section restauration audio du forum Audacity</li>
-              <li>Outils et plugins complémentaires pour la restauration audio</li>
+              <li>Galerie d'illustrations interactives sur le site officiel</li>
             </ul>
           </div>
         </section>
