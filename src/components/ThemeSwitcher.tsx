@@ -14,7 +14,7 @@ import { useEffect, useState } from "react";
 type Theme = "light" | "dark" | "pastel" | "cabaret";
 
 const ThemeSwitcher = () => {
-  const [theme, setTheme] = useState<Theme>("light");
+  const [theme, setTheme] = useState<Theme>("dark");
 
   useEffect(() => {
     // Get stored theme or system preference
@@ -22,9 +22,11 @@ const ThemeSwitcher = () => {
     if (savedTheme) {
       setTheme(savedTheme);
       document.documentElement.setAttribute("data-theme", savedTheme);
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    } else {
+      // Définir le mode sombre par défaut
       setTheme("dark");
       document.documentElement.setAttribute("data-theme", "dark");
+      localStorage.setItem("theme", "dark");
     }
   }, []);
 
